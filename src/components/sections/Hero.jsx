@@ -77,7 +77,7 @@ export default function Hero() {
               </h1>
 
               <p className="text-xl text-gray-300 leading-relaxed">
-                Full Stack MERN Developer & AI/ML Specialist. Passionate about building scalable web applications, integrating AI solutions, and creating exceptional user experiences. Let's turn your ideas into reality.
+                Computer Engineer | Full-Stack & AI Developer. Passionate about building scalable web applications, integrating AI solutions, and creating exceptional user experiences. Let's turn your ideas into reality.
               </p>
             </div>
 

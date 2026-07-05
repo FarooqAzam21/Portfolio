@@ -141,7 +141,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-white mb-1">Location</h4>
-                  <p className="text-gray-400 text-sm">Your City, Your Country</p>
+                  <p className="text-gray-400 text-sm">Karachi, Pakistan</p>
                 </div>
               </motion.div>
             </div>

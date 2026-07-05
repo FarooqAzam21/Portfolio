@@ -4,60 +4,56 @@ import { SiMongodb, SiMysql, SiTailwindcss, SiExpress } from 'react-icons/si'
 import { useState } from 'react'
 
 export default function Skills() {
-  const [selectedCategory, setSelectedCategory] = useState('frontend')
+  const [selectedCategory, setSelectedCategory] = useState('languages')
 
   const skillCategories = {
-    frontend: {
-      name: 'Frontend',
+    languages: {
+      name: 'Languages & Frameworks',
       skills: [
-        { name: 'React', icon: FaReact, level: 95 },
-        { name: 'JavaScript', icon: null, level: 96, color: 'text-yellow-400' },
-        { name: 'HTML/CSS', icon: null, level: 97, color: 'text-orange-400' },
-        { name: 'Tailwind CSS', icon: SiTailwindcss, level: 95 },
-        { name: 'Responsive Design', icon: null, level: 96, color: 'text-green-400' },
-        { name: 'Redux', icon: null, level: 90, color: 'text-purple-400' },
-      ],
-    },
-    backend: {
-      name: 'Backend & MERN',
-      skills: [
-        { name: 'Node.js', icon: FaNode, level: 94 },
-        { name: 'Express.js', icon: SiExpress, level: 93 },
-        { name: 'REST APIs', icon: null, level: 95, color: 'text-green-400' },
-        { name: 'Authentication', icon: null, level: 92, color: 'text-purple-400' },
-        { name: 'Middleware', icon: null, level: 91, color: 'text-indigo-400' },
-        { name: 'Payment Integration', icon: null, level: 88, color: 'text-cyan-400' },
+        { name: 'JavaScript', icon: null, level: 95, color: 'text-yellow-400' },
+        { name: 'Python', icon: null, level: 92, color: 'text-blue-400' },
+        { name: 'PHP', icon: null, level: 85, color: 'text-indigo-400' },
+        { name: 'HTML/CSS', icon: null, level: 95, color: 'text-orange-400' },
+        { name: 'React.js', icon: FaReact, level: 95 },
+        { name: 'Node.js', icon: FaNode, level: 90 },
+        { name: 'Express.js', icon: SiExpress, level: 90 },
+        { name: 'MERN Stack', icon: null, level: 92, color: 'text-green-400' },
       ],
     },
     ai_ml: {
-      name: 'AI/ML & Python',
+      name: 'AI / ML',
       skills: [
-        { name: 'Python', icon: null, level: 93, color: 'text-blue-400' },
-        { name: 'AI Chatbot Integration', icon: null, level: 91, color: 'text-pink-400' },
-        { name: 'Machine Learning', icon: null, level: 89, color: 'text-cyan-400' },
-        { name: 'Deep Learning', icon: null, level: 87, color: 'text-indigo-400' },
-        { name: 'NLP', icon: null, level: 88, color: 'text-purple-400' },
-        { name: 'Data Analysis', icon: null, level: 90, color: 'text-green-400' },
+        { name: 'Machine Learning', icon: null, level: 92, color: 'text-blue-400' },
+        { name: 'Deep Learning', icon: null, level: 88, color: 'text-indigo-400' },
+        { name: 'NLP', icon: null, level: 90, color: 'text-purple-400' },
+        { name: 'RAG', icon: null, level: 85, color: 'text-pink-400' },
+        { name: 'Transformers', icon: null, level: 88, color: 'text-cyan-400' },
+        { name: 'LSTM & Random Forest', icon: null, level: 90, color: 'text-teal-400' },
       ],
     },
-    database: {
-      name: 'Database',
+    databases: {
+      name: 'Databases',
       skills: [
-        { name: 'MongoDB', icon: SiMongodb, level: 94 },
-        { name: 'MySQL', icon: SiMysql, level: 92 },
-        { name: 'Database Design', icon: null, level: 91, color: 'text-emerald-400' },
-        { name: 'Query Optimization', icon: null, level: 89, color: 'text-teal-400' },
+        { name: 'MongoDB', icon: SiMongodb, level: 92 },
+        { name: 'MySQL', icon: SiMysql, level: 90 },
       ],
     },
     tools: {
-      name: 'Tools & Others',
+      name: 'Tools & Platforms',
       skills: [
         { name: 'Git', icon: FaGitAlt, level: 95 },
-        { name: 'GitHub', icon: FaGithub, level: 96 },
-        { name: 'VS Code', icon: null, level: 97, color: 'text-blue-400' },
-        { name: 'Vercel', icon: null, level: 92, color: 'text-gray-300' },
-        { name: 'Jupyter Notebook', icon: null, level: 90, color: 'text-orange-400' },
-        { name: 'Postman', icon: null, level: 91, color: 'text-red-400' },
+        { name: 'GitHub', icon: FaGithub, level: 95 },
+        { name: 'Vercel', icon: null, level: 90, color: 'text-gray-300' },
+        { name: 'REST APIs', icon: null, level: 92, color: 'text-green-400' },
+      ],
+    },
+    other: {
+      name: 'Other',
+      skills: [
+        { name: 'UI/UX Design', icon: null, level: 85, color: 'text-pink-400' },
+        { name: 'SEO', icon: null, level: 90, color: 'text-yellow-400' },
+        { name: 'Digital Marketing', icon: null, level: 85, color: 'text-orange-400' },
+        { name: 'AI Integration', icon: null, level: 92, color: 'text-purple-400' },
       ],
     },
   }

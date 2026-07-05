@@ -5,29 +5,12 @@ export default function Education() {
   const educationData = [
     {
       id: 1,
-      degree: "Bachelor's in Computer Engineering",
-      institution: 'Sir Syed University of Engineering and Technology',
+      degree: "Bachelor of Engineering — Computer Engineering",
+      institution: 'Sir Syed University of Engineering & Technology (SSUET)',
       duration: '2022 - 2026',
-      description: 'Focused on full-stack web development, distributed systems, and software engineering principles.',
-      highlights: ['Web Development', 'Data Structures', 'Algorithms', 'Database Design', 'Software Engineering'],
-      gpa: '2.91/4.0',
-    },
-    {
-      id: 2,
-      degree: 'Advanced Full Stack Development Bootcamp',
-      institution: 'Tech Training Institute',
-      duration: '2023 - 2024',
-      description: 'Intensive bootcamp covering modern web development stack including React, Node.js, and cloud deployment.',
-      highlights: ['MERN Stack', 'Cloud Deployment', 'REST APIs', 'Real-time Applications', 'DevOps'],
-    },
-    {
-      id: 3,
-      degree: 'AI & Machine Learning Specialization',
-      institution: 'Online Learning Platform',
-      duration: '2023',
-      description: 'Comprehensive course on AI/ML integration in web applications and data analysis.',
-      highlights: ['Machine Learning Fundamentals', 'AI Integration', 'Data Analysis', 'Neural Networks', 'NLP'],
-    },
+      description: 'Karachi, Pakistan. Final Year Project: CyberGuard AI — Hybrid ML ensemble (Random Forest, LSTM, Isolation Forest, NLP Transformers) for real-time cybersecurity threat detection achieving 93% accuracy.',
+      highlights: ['Computer Engineering', 'Machine Learning', 'Cybersecurity', 'Web Development'],
+    }
   ]
 
   const containerVariants = {
@@ -153,12 +136,8 @@ export default function Education() {
           <h3 className="text-2xl font-bold mb-8 text-center md:text-left">Certifications & Achievements</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {[
-              'React.js Advanced Certification',
-              'Node.js & Express.js Expert',
-              'MongoDB Database Specialist',
-              'AWS Cloud Practitioner',
-              'Google Cloud Associate Developer',
-              'Full Stack Web Development Master',
+              'Machine Learning A–Z — Udemy',
+              'React — The Complete Guide — Udemy'
             ].map((cert, index) => (
               <motion.div
                 key={index}

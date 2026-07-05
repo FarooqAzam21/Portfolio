@@ -7,8 +7,8 @@ export default function Footer() {
   const quickLinks = [
     { name: 'Home', id: 'home' },
     { name: 'About', id: 'about' },
-    { name: 'Skills', id: 'skills' },
     { name: 'Projects', id: 'projects' },
+    { name: 'Experience', id: 'experience' },
     { name: 'Contact', id: 'contact' },
   ]
 
@@ -85,13 +85,13 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
           >
-            <h4 className="font-semibold text-white mb-4">Services</h4>
+            <h4 className="font-semibold text-white mb-4">Focus</h4>
             <ul className="space-y-2">
               {[
-                'Web Development',
-                'Frontend Development',
-                'Backend Development',
-                'API Development',
+                'Full-Stack Web Dev',
+                'AI/ML Integration',
+                'Data Analysis',
+                'NLP & Chatbots',
               ].map((service) => (
                 <motion.li
                   key={service}
@@ -148,7 +148,7 @@ export default function Footer() {
           transition={{ duration: 0.6, delay: 0.4 }}
         >
           <p className="text-gray-400 text-sm text-center md:text-left">
-            © {currentYear} Your Name. All rights reserved.
+            © {currentYear} Farooq Azam. All rights reserved.
           </p>
 
           <div className="flex gap-6 text-sm">

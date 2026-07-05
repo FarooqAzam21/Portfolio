@@ -21,9 +21,9 @@ export default function About() {
   }
 
   const highlights = [
-    { label: 'Projects Completed', value: '25+' },
-    { label: 'Years of Experience', value: '3+' },
-    { label: 'Satisfied Clients', value: '50+' },
+    { label: 'Projects Completed', value: '8+' },
+    { label: 'Years of Experience', value: '1+' },
+    { label: 'Certifications', value: '2' },
     { label: 'Technologies', value: '15+' },
   ]
 
@@ -57,7 +57,7 @@ export default function About() {
           {/* Left side - Text */}
           <motion.div className="space-y-6" variants={itemVariants}>
             <p className="text-gray-300 leading-relaxed text-lg">
-              I'm a passionate Full Stack MERN Developer with a strong focus on creating scalable, efficient, and user-centric web applications. With expertise in modern web technologies, I specialize in transforming complex problems into elegant digital solutions.
+              I'm a Computer Engineering student at SSUET and a passionate Full Stack & AI Developer. With expertise in modern web technologies and machine learning, I specialize in transforming complex problems into elegant digital solutions.
             </p>
 
             <p className="text-gray-300 leading-relaxed text-lg">
