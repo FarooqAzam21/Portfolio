@@ -6,11 +6,11 @@ export default function Education() {
     {
       id: 1,
       degree: "Bachelor's in Computer Engineering",
-      institution: 'University Name',
-      duration: '2020 - 2024',
+      institution: 'Sir Syed University of Engineering and Technology',
+      duration: '2022 - 2026',
       description: 'Focused on full-stack web development, distributed systems, and software engineering principles.',
       highlights: ['Web Development', 'Data Structures', 'Algorithms', 'Database Design', 'Software Engineering'],
-      gpa: '3.8/4.0',
+      gpa: '2.91/4.0',
     },
     {
       id: 2,
